@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1440px;
+    height: 100vh;
+}
+body {
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.top {
+    width: 100%;
+    height: 50vh;
+    padding: .5rem 3rem .5rem 3rem;
+    background-color: white;
+    
+    
+}
+.bottom {
+    display: flex;
+    flex-direction: row;
+    
+}
+.left  {
+    width: 50%;
+    height: 50vh;
+    background-color: hsl(179, 62%, 43%);
+    padding: 3rem;
+}
+
+.right {
+    width: 50%;
+    height: 50vh;
+  background-color: hsl(179, 81%, 48%);
+  padding: 3rem;
+}
+
+
+ input {
+     
+     height: 5rem; 
+     border-radius: .4rem;
+     border: none;
+     width: 85%;
+     
+ }   
+#button {
+    background-color:  hsl(71, 73%, 54%);
+}
+.money {
+    display: flex;
+    
+    flex-direction: row;
+    align-items: center;
+    font-size: 2.5vw;
+}
+.title {
+    padding-bottom: 1.5rem;
+    color: hsl(179, 62%, 43%);
+    font-size: 5vw;
+    
+}
+.money-back {
+    padding-bottom: 2rem;
+    color: hsl(71, 73%, 54%);
+    font-size: 4vw;
+}
+.para {
+    color: hsl(218, 22%, 67%);
+    font-weight: 700;
+    font-size: 2.5vw;
+    
+    
+}
+h2 {
+    color: hsl(204, 43%, 93%);
+    font-size: 3vw;
+    padding-bottom: 1rem;
+}
+.money {
+    padding-bottom: .7rem;
+}
+.dollars {
+    color:hsl(204, 43%, 93%);
+    padding-right: 1rem;
+    
+}
+h3 {
+    color: hsl(216, 14%, 79%);
+    font-weight: 700;
+}
+
+.left-para {
+    color:hsl(204, 43%, 93%);
+    font-size: 2.5vw;
+    padding-bottom: 1rem;
+}
+
+
+.right-h1 {
+    color:hsl(204, 43%, 93%);
+    font-size: 3vw;
+    padding-bottom: 1rem;
+}
+.tutorial {
+    color: hsl(218, 22%, 67%);
+    font-size: 2.5vw;
+}
+input {
+    text-align: center;
+    font-size: 2vw;
+    color:hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+    font-weight:700;
+}
+li {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    color:hsl(204, 43%, 93%);
+    list-style: none;
+}
+ul {
+    padding: 0;
+}
+@media  screen and (max-width: 580px) {
+
+      body {
+          float: none;
+      }
+
+
+    .top {
+        width: 100%;
+        
+        }
+    .money-back {
+        font-size: 1.7rem;
+    }
+    .para {
+        font-size: 1.2rem;
+        line-height: 2rem;
+    }
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .left {
+        /* float: none; */
+        width: 100%;
+    }
+    .right {
+        /* float: none; */
+        width: 100%;
+    }
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        font-size: 2rem;
+    }
+    .right-h1 {
+        font-size: 2rem;
+    }
+    li {
+        font-size: 1.5rem;
+        line-height: 1.7rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    .dollars {
+        font-size: 3.5rem;
+    }
+    h3 {
+        font-size: 1.4rem;
+    }
+    .left-para {
+        font-size: 1.5rem;
+    }
+}
